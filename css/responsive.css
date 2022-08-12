@@ -1,0 +1,239 @@
+@media all and (max-width: 1200px){
+	.footer-area .newsletter input[type="submit"]{
+		position: inherit;
+		display: block;
+		margin:10px 0 0 6px;
+		width: 100%;
+		font-size: 20px;
+		font-weight: 400;
+		width: 90%;
+	}
+	.service{
+		text-align: center;
+	}
+	.single-service .col-20{
+		width: 100%;
+	}
+	.single-service .col-80{
+		width: 100%;
+	}
+	.service-content h4{
+		margin-top:20px;
+	}
+}
+
+@media all and (max-width: 992px){
+	p{
+		font-size:20px;
+	}
+	.col-10{
+		width: 100%;
+		text-align: center;
+	}
+	.col-20{
+		width: 100%;
+	}
+	.col-33{
+		width: 100%;
+	}
+	.col-70{
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+	}
+	.header-top a{
+		font-size: 20px;
+	}
+	.header-top .col-50{
+		width: 100%;
+		text-align: center;
+		padding:10px 0;
+	}
+	.right{
+		float:none;
+	}
+	.header-bottom .logo{
+		text-align: center;
+		padding:10px 0;
+	}
+	.header-bottom .logo img{
+		width: 160px;
+		height: auto;
+	}
+	.menu li a{
+		font-size: 20px;
+	}
+	.single-service{
+		padding:60px 0;
+	}
+	.service-content h4{
+		font-size: 30px;
+	}
+	.service-content p{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.work-content h4{
+		font-size: 24px;
+	}
+	.work-content p{
+		font-size: 20px;
+	}
+	.work-remote .single-thumb a:hover:before{
+		content: "";
+		
+	}
+	.hiring-area .ctr .btn{
+		padding:20px 50px;
+		font-size: 20px;
+	}
+	.ctr a{
+		padding:20px 50px;
+		font-size: 20px;
+	}
+	.footer-area .single-widget-area .col-25{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.single-widget-content h4{
+		font-size: 20px;
+	}
+	.single-widget-content  p,
+	.about-content p
+	{
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.footer-area .newsletter input[type="text"]{
+		width: 90%;
+		color: #FFFFFF;
+		font-size: 18px;
+	}
+	.footer-area .newsletter input::placeholder{
+		font-size: 20px;
+	}
+
+	.footer-area .newsletter{
+		padding: 25px 0;
+	}
+	
+}
+
+@media all and (max-width: 768px){
+	.main-menu .menu li{
+		display: block;
+	}
+	.banner-content h1{
+		font-size: 50px;
+		letter-spacing: 2px;
+	}
+	
+	.footer-area .single-widget-area .col-25{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.single-widget-content .col-50{
+		width:25%;
+	}
+	.single-widget-area .single-work-thumb img{
+		width:auto;
+		height: auto;
+	}
+	br{
+		display: none;
+	}
+	.footer-bottom .copyright{
+		display: block;
+	}
+	.footer-bottom .copyright p{
+		display: block;
+		text-align: center;
+	}
+	.col-50{
+		width:100%;
+		text-align: center;
+		padding:10px 0;
+	}
+}
+
+@media all and (max-width: 620px){
+	.banner-content h1{
+		font-size: 35px;
+	}
+	.single-widget-content .col-50{
+		width:50%;
+		text-align: left;
+		
+	}
+	.footer-area .footer-work{
+		width: 60%;
+	}
+	.col-25{
+		width: 50%;
+	}
+
+}
+@media all and (max-width: 510px){
+	.banner-content{
+		height: 300px;
+	}
+	.banner-content h1{
+		font-size: 25px;
+	}
+	.content h2{
+		font-size: 25px;
+	}
+	.footer-area .footer-work{
+		width: 90%;
+	}
+	.footer-area .newsletter input[type="text"]{
+		padding: 10px 20px 10px 5px;
+	}
+}
+
+@media all and (max-width: 420px){
+	.header-top .contacts a{
+		display: block;
+		padding:10px 0;
+	}
+	.col-25{
+		width: 100%;
+	}
+	.col-80{
+		padding:0;
+	}
+	.service-content p{
+		font-size: 16px;
+	}
+	.banner-content h1{
+		font-size: 22px;
+	}
+	.banner-content .content p{
+		font-size: 16px;
+	}
+	.content{
+		padding:0 10px;
+	}
+	.content h2{
+		font-size: 18px;
+	}
+	.content p{
+		font-size: 16px;
+	}
+	.service-content p{
+		text-align: center;
+	}
+	.work-content h4{
+		font-size: 18px;
+	}
+	.single-widget-content h4{
+		font-size: 18px;
+	}
+	.single-widget-content p, .about-content p{
+		font-size: 16px;
+	}
+	p{
+		font-size: 16px;
+	}
+}
